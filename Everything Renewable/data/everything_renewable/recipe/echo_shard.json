@@ -1,13 +1,14 @@
 {
 	"type": "minecraft:crafting_shaped",
+	"category": "misc",
 	"pattern": [
 		"aaa",
 		"aCa",
 		"aaa"
 	],
 	"key": {
-		"a": {"item": "minecraft:amethyst_shard"},
-		"C": {"item": "minecraft:sculk_catalyst"}
+		"a": "minecraft:amethyst_shard",
+		"C": "minecraft:sculk_catalyst"
 	},
 	"result": {
 		"id": "minecraft:echo_shard",

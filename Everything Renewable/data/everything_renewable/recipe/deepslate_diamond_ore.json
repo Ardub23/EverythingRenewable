@@ -1,13 +1,14 @@
 {
 	"type": "minecraft:crafting_shaped",
+	"category": "building",
 	"pattern": [
 		"#d#",
 		"d#d",
 		"#d#"
 	],
 	"key": {
-		"d": {"item": "minecraft:diamond"},
-		"#": {"item": "minecraft:deepslate"}
+		"d": "minecraft:diamond",
+		"#": "minecraft:deepslate"
 	},
 	"result": {
 		"id": "minecraft:deepslate_diamond_ore"

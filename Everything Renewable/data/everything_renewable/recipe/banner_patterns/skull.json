@@ -1,8 +1,9 @@
 {
 	"type": "crafting_shapeless",
+	"category": "misc",
 	"ingredients": [
-		{"item": "minecraft:skull_banner_pattern"},
-		{"item": "minecraft:paper"}
+		"minecraft:skull_banner_pattern",
+		"minecraft:paper"
 	],
 	"result": {
 		"id": "minecraft:skull_banner_pattern"

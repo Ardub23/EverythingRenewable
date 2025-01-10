@@ -1,8 +1,9 @@
 {
 	"type": "crafting_shapeless",
+	"category": "misc",
 	"ingredients": [
-		{"item": "minecraft:mojang_banner_pattern"},
-		{"item": "minecraft:paper"}
+		"minecraft:mojang_banner_pattern",
+		"minecraft:paper"
 	],
 	"result": {
 		"id": "minecraft:mojang_banner_pattern"

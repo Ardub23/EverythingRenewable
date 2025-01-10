@@ -1,16 +1,17 @@
 {
 	"type": "minecraft:crafting_shaped",
+	"category": "misc",
 	"pattern": [
 		" C ",
 		"S*T",
 		" P "
 	],
 	"key": {
-		"*": {"item": "minecraft:nether_star"},
-		"C": {"item": "minecraft:cod_bucket"},
-		"S": {"item": "minecraft:salmon_bucket"},
-		"T": {"item": "minecraft:tropical_fish_bucket"},
-		"P": {"item": "minecraft:pufferfish_bucket"}
+		"*": "minecraft:nether_star",
+		"C": "minecraft:cod_bucket",
+		"S": "minecraft:salmon_bucket",
+		"T": "minecraft:tropical_fish_bucket",
+		"P": "minecraft:pufferfish_bucket"
 	},
 	"result": {
 		"id": "minecraft:heart_of_the_sea"

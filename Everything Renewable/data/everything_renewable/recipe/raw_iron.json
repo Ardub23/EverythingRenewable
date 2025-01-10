@@ -1,9 +1,10 @@
 {
 	"type": "crafting_shapeless",
+	"category": "misc",
 	"ingredients": [
-		{"item": "minecraft:iron_ingot"},
-		{"item": "minecraft:iron_ingot"},
-		{"item": "minecraft:flint"}
+		"minecraft:iron_ingot",
+		"minecraft:iron_ingot",
+		"minecraft:flint"
 	],
 	"result": {
 		"id": "minecraft:raw_iron",

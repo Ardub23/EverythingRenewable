@@ -1,13 +1,14 @@
 {
 	"type": "minecraft:crafting_shaped",
+	"category": "misc",
 	"pattern": [
 		"###",
 		"#*#",
 		"###"
 	],
 	"key": {
-		"*": {"item": "minecraft:nether_star"},
-		"#": {"item": "minecraft:obsidian"}
+		"*": "minecraft:nether_star",
+		"#": "minecraft:obsidian"
 	},
 	"result": {
 		"id": "minecraft:heavy_core"

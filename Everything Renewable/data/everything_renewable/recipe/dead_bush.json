@@ -4,9 +4,9 @@
 	"cookingtime": 200,
 	"experience": 0.1,
 	"ingredient": [
-		{ "item": "minecraft:lilac" },
-		{ "item": "minecraft:peony" },
-		{ "item": "minecraft:rose_bush" }
+		"minecraft:lilac",
+		"minecraft:peony",
+		"minecraft:rose_bush"
 	],
 	"result": {
 		"id": "minecraft:dead_bush"

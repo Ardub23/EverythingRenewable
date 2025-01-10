@@ -1,12 +1,13 @@
 {
 	"type": "minecraft:crafting_shaped",
+	"category": "misc",
 	"pattern": [
 		"#",
 		"-"
 	],
 	"key": {
-		"#": {"tag": "everything_renewable:music_discs"},
-		"-": {"item": "minecraft:music_disc_5"}
+		"#": "#everything_renewable:music_discs",
+		"-": "minecraft:music_disc_5"
 	},
 	"result": {
 		"id": "minecraft:music_disc_5"

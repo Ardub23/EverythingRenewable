@@ -1,13 +1,14 @@
 {
 	"type": "minecraft:crafting_shaped",
+	"category": "building",
 	"pattern": [
 		"#-#",
 		"-#-",
 		"#-#"
 	],
 	"key": {
-		"-": {"item": "minecraft:coal"},
-		"#": {"item": "minecraft:stone"}
+		"-": "minecraft:coal",
+		"#": "minecraft:stone"
 	},
 	"result": {
 		"id": "minecraft:coal_ore"

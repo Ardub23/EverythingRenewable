@@ -1,13 +1,14 @@
 {
 	"type": "minecraft:crafting_shaped",
+	"category": "building",
 	"pattern": [
 		"#-#",
 		"-#-",
 		"#-#"
 	],
 	"key": {
-		"-": {"item": "minecraft:redstone_block"},
-		"#": {"item": "minecraft:deepslate"}
+		"-": "minecraft:redstone_block",
+		"#": "minecraft:deepslate"
 	},
 	"result": {
 		"id": "minecraft:deepslate_redstone_ore"

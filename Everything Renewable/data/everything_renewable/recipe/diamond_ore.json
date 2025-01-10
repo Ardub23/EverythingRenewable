@@ -1,13 +1,14 @@
 {
 	"type": "minecraft:crafting_shaped",
+	"category": "building",
 	"pattern": [
 		"#d#",
 		"d#d",
 		"#d#"
 	],
 	"key": {
-		"d": {"item": "minecraft:diamond"},
-		"#": {"item": "minecraft:stone"}
+		"d": "minecraft:diamond",
+		"#": "minecraft:stone"
 	},
 	"result": {
 		"id": "minecraft:diamond_ore"

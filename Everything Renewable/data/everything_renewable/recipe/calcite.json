@@ -1,12 +1,13 @@
 {
 	"type": "minecraft:crafting_shaped",
+	"category": "building",
 	"pattern": [
 		"-#",
 		"#-"
 	],
 	"key": {
-		"-": {"item": "minecraft:dripstone_block"},
-		"#": {"item": "minecraft:quartz"}
+		"-": "minecraft:dripstone_block",
+		"#": "minecraft:quartz"
 	},
 	"result": {
 		"id": "minecraft:calcite",

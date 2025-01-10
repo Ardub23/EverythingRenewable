@@ -1,9 +1,10 @@
 {
 	"type": "crafting_shapeless",
+	"category": "misc",
 	"ingredients": [
-		{"item": "minecraft:copper_ingot"},
-		{"item": "minecraft:copper_ingot"},
-		{"item": "minecraft:flint"}
+		"minecraft:copper_ingot",
+		"minecraft:copper_ingot",
+		"minecraft:flint"
 	],
 	"result": {
 		"id": "minecraft:raw_copper",

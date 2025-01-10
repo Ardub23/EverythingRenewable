@@ -1,13 +1,14 @@
 {
 	"type": "minecraft:crafting_shaped",
+	"category": "building",
 	"pattern": [
 		"#-#",
 		"-#-",
 		"#-#"
 	],
 	"key": {
-		"-": {"item": "minecraft:emerald"},
-		"#": {"item": "minecraft:stone"}
+		"-": "minecraft:emerald",
+		"#": "minecraft:stone"
 	},
 	"result": {
 		"id": "minecraft:emerald_ore"

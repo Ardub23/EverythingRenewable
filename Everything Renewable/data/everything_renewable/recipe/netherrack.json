@@ -1,12 +1,13 @@
 {
 	"type": "minecraft:crafting_shaped",
+	"category": "building",
 	"pattern": [
 		"-#",
 		"#-"
 	],
 	"key": {
-		"-": {"item": "minecraft:nether_wart_block"},
-		"#": {"item": "minecraft:deepslate"}
+		"-": "minecraft:nether_wart_block",
+		"#": "minecraft:deepslate"
 	},
 	"result": {
 		"id": "minecraft:netherrack",
