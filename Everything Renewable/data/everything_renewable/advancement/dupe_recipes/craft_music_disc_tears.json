@@ -1,0 +1,22 @@
+{
+	"parent": "everything_renewable:dupe_recipes/root",
+	"rewards": {
+		"loot": [
+			"everything_renewable:music_disc_tears"
+		],
+		"function": "everything_renewable:clear_dupe_advancements"
+	},
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "everything_renewable:music_discs/tears"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"craft"
+		]
+	]
+}

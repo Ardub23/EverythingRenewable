@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"everything_renewable:music_discs/lava_chicken"
+		]
+	},
+	"criteria": {
+		"has_the_result": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:music_disc_lava_chicken"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "everything_renewable:music_discs/lava_chicken"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_the_result",
+			"has_the_recipe"
+		]
+	]
+}

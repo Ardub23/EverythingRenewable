@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"everything_renewable:music_discs/tears"
+		]
+	},
+	"criteria": {
+		"has_the_result": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:music_disc_tears"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "everything_renewable:music_discs/tears"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_the_result",
+			"has_the_recipe"
+		]
+	]
+}

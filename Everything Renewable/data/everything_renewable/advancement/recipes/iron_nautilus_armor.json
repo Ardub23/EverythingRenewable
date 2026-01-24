@@ -1,0 +1,54 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"everything_renewable:iron_nautilus_armor"
+		]
+	},
+	"criteria": {
+		"has_ingot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_ingot"
+					}
+				]
+			}
+		},
+		"has_saddle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:saddle"
+					}
+				]
+			}
+		},
+		"has_the_result": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_nautilus_armor"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "everything_renewable:iron_nautilus_armor"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_ingot",
+			"has_saddle",
+			"has_the_result",
+			"has_the_recipe"
+		]
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"#",
+		"-"
+	],
+	"key": {
+		"#": "#everything_renewable:music_discs",
+		"-": "minecraft:music_disc_tears"
+	},
+	"result": {
+		"id": "minecraft:music_disc_tears"
+	},
+	"group": "dupe_music_discs"
+}

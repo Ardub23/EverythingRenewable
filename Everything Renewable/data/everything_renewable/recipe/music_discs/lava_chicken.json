@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"#",
+		"-"
+	],
+	"key": {
+		"#": "#everything_renewable:music_discs",
+		"-": "minecraft:music_disc_lava_chicken"
+	},
+	"result": {
+		"id": "minecraft:music_disc_lava_chicken"
+	},
+	"group": "dupe_music_discs"
+}
